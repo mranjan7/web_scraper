@@ -6,6 +6,7 @@ use std::io::Write;
 use std::thread;
 use std::time::Duration;
 use remote_job_scraper::jobs::Job;
+use serde_json::Value;
 
 
 #[tokio::main]
@@ -25,9 +26,18 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 async fn scrape_remoteok(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn std::error::Error>>{
-    let body = reqwest::get("https://remoteok.com/remote-jobs").await?.text().await?;
-    println!("{body}");
-    Ok(Vec::new())
+        let jobs:Vec<Value> = reqwest::Client::builder().user_agent("Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0")
+                                .build()?
+                                .get("https://remoteok.com/api")
+                                .send()
+                                .await?
+                                .json()
+                                .await?;
+            for job in jobs.iter().skip(1).take(10){
+                    let title = job["position"].as_str().unwrap_or("NA");
+                    println!("{}",title);
+                }
+           Ok(())
     }
 async fn scrape_weworkremotely(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn std::error::Error>>{
             Ok(Vec::new())
