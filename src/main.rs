@@ -23,6 +23,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let json = serde_json::to_string_pretty(&jobs)?;
     let mut file = File::create("remote_jobs.json").expect("could not create file");
     file.write_all(json.as_bytes())?;
+    let mut writer = csv::Writer::from_path("remote_jobs.csv")?;
+    for job in &jobs {
+            writer.serialize(job)?;
+        }
     Ok(())
 }
 async fn scrape_remoteok(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn std::error::Error>>{
@@ -35,9 +39,9 @@ async fn scrape_remoteok(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn
                                 .json()
                                 .await?;
             for job in jobs.iter().skip(1).take(10){
-                    let title = job["position"].as_str().unwrap_or("NA");
+                    let title = job["position"].as_str().unwrap_or("NA").to_string();
                     let my_job = Job{
-                           title: String::from(title),
+                           title: title.clone(),
                         };
                     result.push(my_job);
                     println!("{}",title);
