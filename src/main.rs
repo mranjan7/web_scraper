@@ -26,6 +26,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 async fn scrape_remoteok(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn std::error::Error>>{
+        let mut result = Vec::new();
         let jobs:Vec<Value> = reqwest::Client::builder().user_agent("Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0")
                                 .build()?
                                 .get("https://remoteok.com/api")
@@ -35,9 +36,13 @@ async fn scrape_remoteok(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn
                                 .await?;
             for job in jobs.iter().skip(1).take(10){
                     let title = job["position"].as_str().unwrap_or("NA");
+                    let my_job = Job{
+                           title: String::from(title),
+                        };
+                    result.push(my_job);
                     println!("{}",title);
                 }
-           Ok(())
+           Ok(result)
     }
 async fn scrape_weworkremotely(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn std::error::Error>>{
             Ok(Vec::new())
