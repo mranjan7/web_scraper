@@ -34,12 +34,13 @@ async fn scrape_remoteok(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn
         let jobs:Vec<Value> = reqwest::Client::builder().user_agent("Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0")
                                 .build()?
                                 .get("https://remoteok.com/api")
+                                .query(&[("limit","500")])
                                 .send()
                                 .await?
                                 .json()
                                 .await?;
             let tag_index = 7;
-            for job in jobs.iter().skip(1).take(10){
+            for job in jobs.iter().skip(1){
                     let title = job["position"].as_str().unwrap_or("NA").to_string();
                     let company = job["company"].as_str().unwrap_or("NA").to_string();
                     let location = job["location"].as_str().unwrap_or("NA").to_string();
