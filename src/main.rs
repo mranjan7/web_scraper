@@ -7,7 +7,7 @@ use std::thread;
 use std::time::Duration;
 use remote_job_scraper::jobs::Job;
 use serde_json::Value;
-
+use chrono::TimeZone;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -38,10 +38,38 @@ async fn scrape_remoteok(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn
                                 .await?
                                 .json()
                                 .await?;
+            let tag_index = 7;
             for job in jobs.iter().skip(1).take(10){
                     let title = job["position"].as_str().unwrap_or("NA").to_string();
+                    let company = job["company"].as_str().unwrap_or("NA").to_string();
+                    let location = job["location"].as_str().unwrap_or("NA").to_string();
+                    let salary_min = job["salary_min"].as_str().unwrap_or("NA").to_string();
+                    let salary_max = job["salary_max"].as_str().unwrap_or("NA").to_string();
+                    let tags:Vec<String> = job["tags"]
+                    .as_array()
+                    .and_then(|row| row.get(tag_index))
+                    .and_then(|v| v.as_array())
+                    .unwrap_or(&vec![])
+                    .iter()
+                    .filter_map(|v| v.as_str().map(String::from))
+                    .collect();
+                    let url = job["apply_url"].as_str().unwrap_or("NA").to_string();
+                    let posted = Utc.timestamp_opt(job["epoch"].as_i64().unwrap(),0)
+                                    .single()
+                                    .unwrap()
+                                    .format("%Y-%m-%d")
+                                    .to_string();
+
+
                     let my_job = Job{
                            title: title.clone(),
+                           company: company.clone(),
+                           location: location.clone(),
+                           salary_min: salary_min.clone(),
+                           salary_max: salary_max.clone(),
+                           tags: tags.join(" | ").clone(),
+                           url: url.clone(),
+                           posted:posted.clone(),
                         };
                     result.push(my_job);
                     println!("{}",title);
