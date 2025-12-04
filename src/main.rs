@@ -22,6 +22,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     for job in &jobs {
         writer.serialize(job)?;
     }
+    writer.flush()?;
     Ok(())
 }
 async fn scrape_remoteok() -> Result<Vec<Job>, Box<dyn std::error::Error>> {
