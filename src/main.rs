@@ -1,13 +1,10 @@
 use chrono::Utc;
-use scraper::{Html, Selector};
-use std::collections::HashSet;
 use std::fs::File;
 use std::io::Write;
 use std::thread;
 use std::time::Duration;
 use remote_job_scraper::jobs::Job;
 use serde_json::Value;
-use chrono::TimeZone;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -15,7 +12,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Scarping remote ok .......");
     let mut result = scrape_remoteok().await?;
     jobs.extend(result);
-    thread::sleep(Duration::from_secs(2));
+    tokio::time::sleep(Duration::from_secs(2)).await;
     println!("Scraping completed.................");
     let json = serde_json::to_string_pretty(&jobs)?;
     let mut file = File::create("remote_jobs.json").expect("could not create file");
