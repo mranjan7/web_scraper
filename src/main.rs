@@ -12,9 +12,8 @@ use chrono::TimeZone;
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut jobs = Vec::new();
-    let mut seen_urls = HashSet::new();
     println!("Scarping remote ok .......");
-    let mut result = scrape_remoteok(&mut seen_urls).await?;
+    let mut result = scrape_remoteok().await?;
     jobs.extend(result);
     thread::sleep(Duration::from_secs(2));
     println!("Scraping completed.................");
@@ -27,7 +26,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
     Ok(())
 }
-async fn scrape_remoteok(seen: &mut HashSet<String>) -> Result<Vec<Job>, Box<dyn std::error::Error>>{
+async fn scrape_remoteok() -> Result<Vec<Job>, Box<dyn std::error::Error>>{
         let mut result = Vec::new();
         let jobs:Vec<Value> = reqwest::Client::builder().user_agent("Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0")
                                 .build()?
