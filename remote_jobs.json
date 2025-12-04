@@ -1,11 +1,51 @@
 [
   {
+    "title": "Marketing Associate",
+    "company": "Mochi Health",
+    "location": "San Francisco",
+    "salary_min": "NA",
+    "salary_max": "NA",
+    "tags": "design | support | growth | voice | operational | marketing | go | medical | health | healthcare | digital nomad",
+    "url": "https://remoteOK.com/remote-jobs/remote-marketing-associate-mochi-health-1129092",
+    "posted": "2025-12-03"
+  },
+  {
+    "title": "Associate Product Designer",
+    "company": "Mochi Health",
+    "location": "San Francisco",
+    "salary_min": "NA",
+    "salary_max": "NA",
+    "tags": "design | designer | growth | operational | medical | health | healthcare | engineering | digital nomad",
+    "url": "https://remoteOK.com/remote-jobs/remote-associate-product-designer-mochi-health-1129091",
+    "posted": "2025-12-03"
+  },
+  {
+    "title": "Senior Python Engineer",
+    "company": "SynRes",
+    "location": "",
+    "salary_min": "NA",
+    "salary_max": "NA",
+    "tags": "engineer | senior | backend | ai | javascript | python",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-python-engineer-synres-1129090",
+    "posted": "2025-12-02"
+  },
+  {
+    "title": "Computational Bioengineer Gene Therapy Vector Design",
+    "company": "GeneEase",
+    "location": "",
+    "salary_min": "NA",
+    "salary_max": "NA",
+    "tags": "biotech | bioengineer | gene therapy | vector development",
+    "url": "https://remoteOK.com/remote-jobs/remote-computational-bioengineer-gene-therapy-vector-design-geneease-1129088",
+    "posted": "2025-12-02"
+  },
+  {
     "title": "Social Media Lead",
     "company": "Supra",
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "technical | test | growth | director | voice | video | finance | leader | strategy | management | lead | content",
     "url": "https://remoteOK.com/remote-jobs/remote-social-media-lead-supra-1129087",
     "posted": "2025-12-02"
   },
@@ -15,7 +55,7 @@
     "location": "Texas",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | web3 | system | technical | software | growth | code | devops | cloud | node | leader | management | lead | senior | junior | engineer | engineering | backend | full-time | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-application-engineer-infstones-1129086",
     "posted": "2025-12-02"
   },
@@ -25,7 +65,7 @@
     "location": "New York, NY",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | support | operations | engineer | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-associate-machine-learning-engineer-trust-safety-intelligence-spotify-1129085",
     "posted": "2025-12-02"
   },
@@ -35,7 +75,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "saas | founder | architect | recruiter | support | analyst | cloud | api | operational | analytics | sales | health | healthcare | recruiting | engineer | engineering | executive",
     "url": "https://remoteOK.com/remote-jobs/remote-gtm-analytics-engineer-stedi-1129084",
     "posted": "2025-12-02"
   },
@@ -45,7 +85,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "golang | developer | software | python | financial | engineer | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-software-developer-benzinga-1129083",
     "posted": "2025-12-01"
   },
@@ -55,7 +95,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "sales | finance | crypto | analyst | web3 | blockchain | junior | defi | ethereum | bitcoin | web dev | teaching | other | ops | stats | quality assurance | exec",
     "url": "https://remoteOK.com/remote-jobs/remote-junior-crypto-trader-apollo-next-1129081",
     "posted": "2025-12-01"
   },
@@ -65,7 +105,7 @@
     "location": "United States",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "support",
     "url": "https://remoteOK.com/remote-jobs/remote-accountability-coach-calibrate-1129079",
     "posted": "2025-12-01"
   },
@@ -75,7 +115,7 @@
     "location": "Texas",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "amazon | web3 | system | security | support | software | testing | test | code | qa | devops | serverless | cloud | git | node | administrator | management | reliability | engineer | linux | full-time",
     "url": "https://remoteOK.com/remote-jobs/remote-devops-engineer-infstones-1129074",
     "posted": "2025-12-01"
   },
@@ -85,7 +125,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "teacher | teaching | growth | education | leader | lead | marketing",
     "url": "https://remoteOK.com/remote-jobs/remote-education-specialist-berni-mick-ireland-1129073",
     "posted": "2025-12-01"
   },
@@ -95,7 +135,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "No Tech Background Needed | Job or 100% Money Back",
     "url": "https://remoteOK.com/remote-jobs/remote-coding-bootcamp-job-guaranteed-metana-1129072",
     "posted": "2025-11-30"
   },
@@ -115,7 +155,7 @@
     "location": "San Francisco",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | react | testing | web | engineer",
     "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-tech-innovations-inc-1129067",
     "posted": "2025-11-28"
   },
@@ -125,7 +165,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "defi | crypto | security | support | financial | senior | analytics | engineer | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-data-engineer-1inch-1129066",
     "posted": "2025-11-28"
   },
@@ -135,7 +175,7 @@
     "location": "Texas",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "growth | manager | web3 | node | mobile | management | marketing | analytics | sales | full-time",
     "url": "https://remoteOK.com/remote-jobs/remote-growth-marketing-manager-infstones-1129065",
     "posted": "2025-11-28"
   },
@@ -145,7 +185,7 @@
     "location": "New York",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "amazon | ansible | support | operational | analytics | health | healthcare | non tech",
     "url": "https://remoteOK.com/remote-jobs/remote-data-scientist-ansiblehealth-inc-1129064",
     "posted": "2025-11-28"
   },
@@ -155,7 +195,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "code | technical | testing | finance | leader | internship",
     "url": "https://remoteOK.com/remote-jobs/remote-production-code-quality-internship-supra-1129063",
     "posted": "2025-11-28"
   },
@@ -165,7 +205,7 @@
     "location": "Remote US",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "test | security | technical | support | software | testing | api | management | senior | operational | health | engineer | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-test-engineer-endpoint-clinical-1129061",
     "posted": "2025-11-27"
   },
@@ -175,7 +215,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | ethereum | system | designer | technical | animation | lead | full-time | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-graphic-designer-contract-to-perm-monad-foundation-1129060",
     "posted": "2025-11-27"
   },
@@ -185,7 +225,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "ux | design | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-ux-researcher-trammell-venture-partners-1129059",
     "posted": "2025-11-27"
   },
@@ -195,7 +235,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "growth | design | web3 | ethereum | game | gaming | consulting | support | leader | strategy | lead | health | recruitment | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-customer-growth-lead-americas-immutable-1129058",
     "posted": "2025-11-27"
   },
@@ -205,7 +245,7 @@
     "location": "New York City",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | defi | crypto | front-end | technical | code | travel | banking | management | senior | analytics | go | engineer | engineering | backend",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-full-stack-software-engineer-ether-fi-1129056",
     "posted": "2025-11-26"
   },
@@ -215,7 +255,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "manager | web3 | cryptocurrency | support | growth | financial | node | lead | operations | operational | analytics",
     "url": "https://remoteOK.com/remote-jobs/remote-business-operations-manager-o1labs-1129051",
     "posted": "2025-11-26"
   },
@@ -225,7 +265,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "marketing | sales",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-amazon-brand-manager-gno-partners-1129050",
     "posted": "2025-11-26"
   },
@@ -235,7 +275,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "manager | defi | crypto | cryptocurrency | architect | growth | financial | finance | mobile | lead | senior",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-payments-coinme-1129049",
     "posted": "2025-11-26"
   },
@@ -245,7 +285,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | system | serverless | medical | healthcare | engineer",
     "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-nomi-health-1129048",
     "posted": "2025-11-26"
   },
@@ -255,7 +295,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "golang | mobile | golang | engineer | backend",
     "url": "https://remoteOK.com/remote-jobs/remote-staff-backend-engineer-golang-voodoo-1129047",
     "posted": "2025-11-25"
   },
@@ -265,7 +305,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | assistant | design | system | security | full-stack | technical | recruiter | testing | ui | ux | web | cloud | postgresql | typescript | node | api | senior | excel | sales | reliability | health | engineer | engineering | backend | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-agentic-assistant-flock-safety-1129046",
     "posted": "2025-11-25"
   },
@@ -275,7 +315,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "manager | training | consulting | technical | strategist | support | software | growth | financial | cloud | management | lead | legal | health | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-customer-success-and-engagement-manager-egen-1129045",
     "posted": "2025-11-25"
   },
@@ -285,7 +325,7 @@
     "location": "Remote - Europe - North America",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | crypto | technical | financial | investment | c | api | lead | engineer | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-staff-engineer-team-lead-market-data-alpaca-1129044",
     "posted": "2025-11-25"
   },
@@ -305,7 +345,7 @@
     "location": "United States",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | crypto | security | growth | financial | finance | bank | strategy | management | operations | legal | sales | executive | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-institutional-sales-representative-wealth-amp-asset-management-anchorage-digital-1129042",
     "posted": "2025-11-25"
   },
@@ -315,7 +355,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | training | support | growth | financial | finance | leader | management | senior | operational | marketing | medical | health | healthcare | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-vice-president-project-delivery-avalere-health-1129041",
     "posted": "2025-11-25"
   },
@@ -325,7 +365,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "engineer | technical | backend | devops | python | dev",
     "url": "https://remoteOK.com/remote-jobs/remote-python-aws-devops-engineer-nsoft-1129040",
     "posted": "2025-11-25"
   },
@@ -335,7 +375,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "other | ops | exec",
     "url": "https://remoteOK.com/remote-jobs/remote-operations-manager-role-sienna-charles-1129039",
     "posted": "2025-11-24"
   },
@@ -345,7 +385,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "other | ops | exec",
     "url": "https://remoteOK.com/remote-jobs/remote-customer-service-director-role-sienna-charles-1129038",
     "posted": "2025-11-24"
   },
@@ -355,7 +395,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "other | ops | exec",
     "url": "https://remoteOK.com/remote-jobs/remote-people-operations-leader-sienna-charles-1129037",
     "posted": "2025-11-24"
   },
@@ -375,7 +415,7 @@
     "location": "Charleston",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "part-time",
     "url": "https://remoteOK.com/remote-jobs/remote-global-elite-texas-work-from-home-client-services-representative-global-elite-empire-1129034",
     "posted": "2025-11-24"
   },
@@ -385,7 +425,7 @@
     "location": "US",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | fintech | senior | engineer | engineering | backend",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-back-end-tomo-1129033",
     "posted": "2025-11-24"
   },
@@ -395,7 +435,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "engineer | senior | design | saas | web dev | front end | dev",
     "url": "https://remoteOK.com/remote-jobs/remote-excellent-frontend-developer-parseur-1129032",
     "posted": "2025-11-24"
   },
@@ -405,18 +445,18 @@
     "location": "San Francisco",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | testing | javascript | cloud | engineer",
     "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-tech-innovations-inc-1129031",
     "posted": "2025-11-24"
   },
   {
-    "title": "Work From Home Customer Service Assistant",
-    "company": "Eestimatepro",
+    "title": "Virtual Assistant",
+    "company": "HerbSprout",
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
-    "url": "https://remoteOK.com/remote-jobs/remote-work-from-home-customer-service-assistant-eestimatepro-1129030",
+    "tags": "customer support | admin | virtual assistant",
+    "url": "https://remoteOK.com/remote-jobs/remote-virtual-assistant-herbsprout-1129030",
     "posted": "2025-11-24"
   },
   {
@@ -425,7 +465,7 @@
     "location": "United Kingdom",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | training | game | designer | testing | director | management | lead | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-lead-narrative-designer-design-hybrid-firesprite-1129027",
     "posted": "2025-11-24"
   },
@@ -435,7 +475,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "consulting | director | students | training | support | growth | education | content | marketing",
     "url": "https://remoteOK.com/remote-jobs/remote-leadership-development-director-independent-amp-lifestyle-seed-consulting-1129024",
     "posted": "2025-11-23"
   },
@@ -445,7 +485,7 @@
     "location": "United States",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | embedded | system | front-end | security | teach | full-stack | founder | cto | architect | technical | strategist | developer | growth | ui | cloud | api | leader | strategy | senior | reliability | engineer | engineering | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-principal-engineer-asp-net-wisecode-1129022",
     "posted": "2025-11-23"
   },
@@ -455,7 +495,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | design | system | security | technical | support | code | web | lead | senior | junior | healthcare | engineer | engineering | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-integrations-jobgether-1129020",
     "posted": "2025-11-22"
   },
@@ -465,7 +505,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | saas | students | content | engineering | internship",
     "url": "https://remoteOK.com/remote-jobs/remote-software-engineering-internship-summer-2026-opensesame-1129018",
     "posted": "2025-11-22"
   },
@@ -475,7 +515,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "security | support | finance | operations | non tech",
     "url": "https://remoteOK.com/remote-jobs/remote-it-specialist-circle-so-1129017",
     "posted": "2025-11-22"
   },
@@ -485,7 +525,7 @@
     "location": "Canada",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | security | developer | devops | cloud | postgresql | mobile | management | operations | reliability | golang | engineer | engineering | recruitment | linux | educational | backend | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-devops-engineer-happyco-1129015",
     "posted": "2025-11-22"
   },
@@ -495,7 +535,7 @@
     "location": "Remote, United States",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "analyst | cfo | support | director | accountant | financial | finance | senior | operational | executive | non tech",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-financial-analyst-precision-for-medicine-1129013",
     "posted": "2025-11-21"
   },
@@ -505,7 +545,7 @@
     "location": "Remote - India",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | design | technical | code | web | java | management | backend | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-intern-software-development-netomi-1129012",
     "posted": "2025-11-21"
   },
@@ -515,7 +555,7 @@
     "location": "Columbia",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "web | virtual assistant | design | designer | support | testing | growth | ux | assistant | seo | senior | marketing | analytics | sales | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-web-designer-wing-assistant-1129011",
     "posted": "2025-11-21"
   },
@@ -525,7 +565,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "consultant | architect | support | management | lead",
     "url": "https://remoteOK.com/remote-jobs/remote-sap-s4-hana-ewm-functional-consultant-cbeyondata-1129010",
     "posted": "2025-11-20"
   },
@@ -535,7 +575,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "manager | system | education | leader | management | lead | senior | engineer | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-maven-1129009",
     "posted": "2025-11-20"
   },
@@ -545,7 +585,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "analyst | growth | financial | finance | strategy | operational | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-finance-data-analyst-circle-so-1129008",
     "posted": "2025-11-20"
   },
@@ -555,7 +595,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "marketing | saas | full time | seo | content writing | ads",
     "url": "https://remoteOK.com/remote-jobs/remote-saas-growth-marketer-land-insights-1129007",
     "posted": "2025-11-20"
   },
@@ -565,7 +605,7 @@
     "location": "Denver",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "technical | reliability",
     "url": "https://remoteOK.com/remote-jobs/remote-mercor-stem-expert-application-via-ripplematch-mercor-1129003",
     "posted": "2025-11-20"
   },
@@ -575,7 +615,7 @@
     "location": "Boston",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "saas | security | training | growth | cloud | mobile | leader | management | lead | operational | marketing | sales | executive",
     "url": "https://remoteOK.com/remote-jobs/remote-strategic-account-executive-saviynt-1129002",
     "posted": "2025-11-20"
   },
@@ -585,7 +625,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "technical | growth | web | serverless | senior | engineer",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-platform-engineer-cytora-1129001",
     "posted": "2025-11-20"
   },
@@ -595,7 +635,7 @@
     "location": "Austin, TX",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | ios | designer | mobile | strategy | lead | android | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-lead-product-designer-hybrid-weedmaps-1129000",
     "posted": "2025-11-20"
   },
@@ -605,7 +645,7 @@
     "location": "United States",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "manager | jira | saas | consulting | support | financial | investment | management | lead | operational | sales | non tech",
     "url": "https://remoteOK.com/remote-jobs/remote-associate-onboarding-manager-comply-1128999",
     "posted": "2025-11-20"
   },
@@ -615,7 +655,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | design | system | frontend | python | full-stack | architect | test | ui | cloud | api | admin | healthcare | engineer | engineering | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-full-stack-ai-systems-sully-ai-1128998",
     "posted": "2025-11-20"
   },
@@ -625,7 +665,7 @@
     "location": "Europe",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "manager | software",
     "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-ii-planet-1128997",
     "posted": "2025-11-20"
   },
@@ -635,7 +675,7 @@
     "location": "Pune or Delhi/NCR",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | system | frontend | back-end | technical | code | analyst | php | angular | api | leader | senior | engineer | engineering | backend",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-acquia-1128996",
     "posted": "2025-11-19"
   },
@@ -645,7 +685,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "training | technical | writer | support | css | content | marketing | analytics | engineering | shopify",
     "url": "https://remoteOK.com/remote-jobs/remote-technical-content-writer-amp-knowledge-specialist-skio-1128995",
     "posted": "2025-11-19"
   },
@@ -655,7 +695,7 @@
     "location": "Remote within US and Canada",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "copywriter | technical | support | software | code | api | content",
     "url": "https://remoteOK.com/remote-jobs/remote-technical-copywriter-warp-1128994",
     "posted": "2025-11-19"
   },
@@ -665,7 +705,7 @@
     "location": "US",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "web3 | crypto | founder | ceo | support | investment | finance | leader | engineer | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-vp-protocol-engineer-galaxy-digital-services-1128993",
     "posted": "2025-11-19"
   },
@@ -675,7 +715,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "full stack | dev | engineer | python | rust | javascript | typescript | react | angular | vue | pyton | django | golang",
     "url": "https://remoteOK.com/remote-jobs/remote-product-engineer-posthog-1128992",
     "posted": "2025-11-19"
   },
@@ -685,7 +725,7 @@
     "location": "US / Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "security | web3 | support | software | testing | code | sales | engineer | full-time",
     "url": "https://remoteOK.com/remote-jobs/remote-blockchain-security-expert-security-audit-track-certik-1128991",
     "posted": "2025-11-19"
   },
@@ -695,7 +735,7 @@
     "location": "New York",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "analyst | system | financial | operations | operational | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-operations-risk-analyst-kalshi-1128990",
     "posted": "2025-11-19"
   },
@@ -705,7 +745,7 @@
     "location": "Texas",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "web3 | solidity | system | technical | node | management | operational | reliability | engineer | engineering | linux | full-time",
     "url": "https://remoteOK.com/remote-jobs/remote-blockchain-site-reliability-engineer-infstones-1128989",
     "posted": "2025-11-19"
   },
@@ -725,7 +765,7 @@
     "location": "New York City, Seattle, San Francisco",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | financial | senior | healthcare | engineer | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-billing-platform-grow-therapy-1128987",
     "posted": "2025-11-19"
   },
@@ -735,7 +775,7 @@
     "location": "New York City, Seattle, San Francisco",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | frontend | full-stack | support | api | mobile | senior | health | healthcare | engineer | engineering | backend",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-client-engagement-grow-therapy-1128986",
     "posted": "2025-11-19"
   },
@@ -745,7 +785,7 @@
     "location": "Remote- US",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "growth | strategy | sales | health | healthcare | executive",
     "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-grow-therapy-1128985",
     "posted": "2025-11-19"
   },
@@ -755,7 +795,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "customer support",
     "url": "https://remoteOK.com/remote-jobs/remote-customer-support-contra-1128983",
     "posted": "2025-11-18"
   },
@@ -765,7 +805,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "backend",
     "url": "https://remoteOK.com/remote-jobs/remote-c-net-developer-aexgroup-1128982",
     "posted": "2025-11-18"
   },
@@ -775,7 +815,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "developer | design | web3 | react | system | frontend | security | full-stack | technical | support | code | web | devops | api | lead | senior | engineer | backend | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-full-stack-engineer-developer-portal-helius-1128980",
     "posted": "2025-11-18"
   },
@@ -785,7 +825,7 @@
     "location": "New Delhi",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "developer | software | leader | analytics | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-data-scientist-geoai-esri-1128979",
     "posted": "2025-11-18"
   },
@@ -795,7 +835,7 @@
     "location": "Not specified",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "senior | operational | golang | engineer",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-golang-engineer-everwest-1128978",
     "posted": "2025-11-18"
   },
@@ -805,7 +845,7 @@
     "location": "Mumbai",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "frontend | developer | web3 | crypto | founder | ceo | investment | finance | leader | senior | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-vice-president-senior-frontend-developer-galaxy-1128977",
     "posted": "2025-11-18"
   },
@@ -815,7 +855,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "manager | technical | support | developer | sales | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-livekit-1128976",
     "posted": "2025-11-18"
   },
@@ -825,7 +865,7 @@
     "location": "New York",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "react | technical | software | code | devops | cloud | junior | marketing | engineer | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-full-stack-engineer-darkroom-1128975",
     "posted": "2025-11-18"
   },
@@ -835,7 +875,7 @@
     "location": "Remote - USA",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "system | front-end | software | growth | node.js | medical | health | engineer | engineering",
     "url": "https://remoteOK.com/remote-jobs/remote-incident-response-engineer-solera-health-1128974",
     "posted": "2025-11-18"
   },
@@ -845,7 +885,7 @@
     "location": "London",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "design | system | python | music | technical | support | code | financial | finance | cloud | scala | operations | operational | engineer | engineering | recruitment | backend | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-data-engineer-revenue-platform-spotify-1128972",
     "posted": "2025-11-17"
   },
@@ -855,7 +895,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "frontend | web | javascript | php | git | angular",
     "url": "https://remoteOK.com/remote-jobs/remote-frontend-angular-symfony-xktalent-inc-rimutee-1128971",
     "posted": "2025-11-17"
   },
@@ -865,7 +905,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "marketing",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-performance-marketer-everai-1128970",
     "posted": "2025-11-17"
   },
@@ -875,7 +915,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "students | training | support | software",
     "url": "https://remoteOK.com/remote-jobs/remote-program-delivery-intern-alx-africa-1128969",
     "posted": "2025-11-17"
   },
@@ -885,7 +925,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "students | training | support | software",
     "url": "https://remoteOK.com/remote-jobs/remote-program-delivery-intern-alx-africa-1128968",
     "posted": "2025-11-17"
   },
@@ -895,7 +935,7 @@
     "location": "Remote: Europe",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | system | frontend | management | golang | engineer | backend",
     "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ii-golang-stacklok-1128967",
     "posted": "2025-11-17"
   },
@@ -905,7 +945,7 @@
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "golang | saas | go | engineer | backend | e-commerce",
     "url": "https://remoteOK.com/remote-jobs/remote-backend-go-engineer-build-the-next-generation-of-global-saas-marketplace-commerce-cyza-1128966",
     "posted": "2025-11-17"
   },
@@ -915,7 +955,7 @@
     "location": "Brooklyn, NY",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "manager | design | web3 | technical | growth | senior | marketing | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-senior-technical-product-manager-avacloud-ava-labs-1128965",
     "posted": "2025-11-17"
   },
@@ -925,7 +965,7 @@
     "location": "Remote",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | ethereum | support | testing | code | lead | go | engineering | backend",
     "url": "https://remoteOK.com/remote-jobs/remote-software-engineering-team-lead-bloxroute-labs-1128964",
     "posted": "2025-11-17"
   },
@@ -935,48 +975,8 @@
     "location": "Remote - India",
     "salary_min": "NA",
     "salary_max": "NA",
-    "tags": "",
+    "tags": "software | design | technical | code | web | java | management | backend | digital nomad",
     "url": "https://remoteOK.com/remote-jobs/remote-intern-software-development-netomi-1128963",
     "posted": "2025-11-16"
-  },
-  {
-    "title": "Software Engineer",
-    "company": "Tech Solutions Inc.",
-    "location": "San Francisco",
-    "salary_min": "NA",
-    "salary_max": "NA",
-    "tags": "",
-    "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-tech-solutions-inc-1128962",
-    "posted": "2025-11-15"
-  },
-  {
-    "title": "Senior Product Designer",
-    "company": "Nansen.ai",
-    "location": "Remote Europe, Remote Asia",
-    "salary_min": "NA",
-    "salary_max": "NA",
-    "tags": "",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-product-designer-nansen-ai-1128960",
-    "posted": "2025-11-15"
-  },
-  {
-    "title": "Senior Full Stack Software Engineer Design Systems",
-    "company": "Circle.so",
-    "location": "Remote",
-    "salary_min": "NA",
-    "salary_max": "NA",
-    "tags": "",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-full-stack-software-engineer-design-systems-circle-so-1128955",
-    "posted": "2025-11-14"
-  },
-  {
-    "title": "External Affairs Lead",
-    "company": "Reflective",
-    "location": "San Francisco",
-    "salary_min": "NA",
-    "salary_max": "NA",
-    "tags": "",
-    "url": "https://remoteOK.com/remote-jobs/remote-external-affairs-lead-reflective-1128954",
-    "posted": "2025-11-14"
   }
 ]
