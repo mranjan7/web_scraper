@@ -38,19 +38,18 @@ async fn scrape_remoteok() -> Result<Vec<Job>, Box<dyn std::error::Error>> {
         return Err(format!("RemoteOK returned HTTP {} ", resp.status()).into());
     }
     let jobs: Vec<Value> = resp.json().await?;
-    let tag_index = 7;
     for job in jobs.iter().skip(1) {
-        let title = job["position"].as_str().unwrap_or("NA").to_string();
-        let company = job["company"].as_str().unwrap_or("NA").to_string();
-        let location = job["location"].as_str().unwrap_or("NA").to_string();
-        let salary_min = job["salary_min"].as_str().unwrap_or("NA").to_string();
-        let salary_max = job["salary_max"].as_str().unwrap_or("NA").to_string();
+        let title = job["position"].as_str().unwrap_or("NA").to_owned();
+        let company = job["company"].as_str().unwrap_or("NA").to_owned();
+        let location = job["location"].as_str().unwrap_or("NA").to_owned();
+        let salary_min = job["salary_min"].as_str().unwrap_or("NA").to_owned();
+        let salary_max = job["salary_max"].as_str().unwrap_or("NA").to_owned();
         let tags = job["tags"].as_array().map_or(Vec::new(), |arr| {
             arr.iter()
                 .filter_map(|v| v.as_str().map(String::from))
                 .collect()
         });
-        let url = job["apply_url"].as_str().unwrap_or("NA").to_string();
+        let url = job["apply_url"].as_str().unwrap_or("NA").to_owned();
         let posted = job["epoch"]
             .as_i64()
             .and_then(|epoch| Utc.timestamp_opt(epoch, 0).single())
