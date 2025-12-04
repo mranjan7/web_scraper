@@ -1,5 +1,45 @@
 [
   {
+    "title": "Senior Product Designer",
+    "company": "Tratta",
+    "location": "",
+    "salary_min": "NA",
+    "salary_max": "NA",
+    "tags": "senior | design | product designer | product",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-product-designer-tratta-1129097",
+    "posted": "2025-12-03"
+  },
+  {
+    "title": "Technical Customer Success Manager",
+    "company": "DV Labs",
+    "location": "Lisbon, Portugal",
+    "salary_min": "NA",
+    "salary_max": "NA",
+    "tags": "manager | ethereum | game | technical | support | developer | software | devops | financial | cloud | node | engineer | engineering | digital nomad",
+    "url": "https://remoteOK.com/remote-jobs/remote-technical-customer-success-manager-dv-labs-1129095",
+    "posted": "2025-12-03"
+  },
+  {
+    "title": "Finance Project Team Lead",
+    "company": "Avalere Health ",
+    "location": "Manchester",
+    "salary_min": "NA",
+    "salary_max": "NA",
+    "tags": "training | technical | support | growth | accounting | financial | finance | microsoft | management | lead | operations | marketing | medical | health | healthcare",
+    "url": "https://remoteOK.com/remote-jobs/remote-finance-project-team-lead-avalere-health-1129094",
+    "posted": "2025-12-03"
+  },
+  {
+    "title": "Revenue Operations & Sales Lead",
+    "company": "Playlab",
+    "location": "",
+    "salary_min": "NA",
+    "salary_max": "NA",
+    "tags": "design | system | students | software | growth | education | strategy | lead | operations | sales | executive | digital nomad",
+    "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-sales-lead-playlab-1129093",
+    "posted": "2025-12-03"
+  },
+  {
     "title": "Marketing Associate",
     "company": "Mochi Health",
     "location": "San Francisco",
@@ -450,13 +490,13 @@
     "posted": "2025-11-24"
   },
   {
-    "title": "Virtual Assistant",
-    "company": "HerbSprout",
+    "title": "Virtual Assistant $1 000 Weekly",
+    "company": "Best Estimate Pro",
     "location": "",
     "salary_min": "NA",
     "salary_max": "NA",
     "tags": "customer support | admin | virtual assistant",
-    "url": "https://remoteOK.com/remote-jobs/remote-virtual-assistant-herbsprout-1129030",
+    "url": "https://remoteOK.com/remote-jobs/remote-virtual-assistant-1-000-weekly-best-estimate-pro-1129030",
     "posted": "2025-11-24"
   },
   {
@@ -938,45 +978,5 @@
     "tags": "software | system | frontend | management | golang | engineer | backend",
     "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ii-golang-stacklok-1128967",
     "posted": "2025-11-17"
-  },
-  {
-    "title": "Backend Go Engineer Build The Next Generation Of Global Saas & Marketplace Commerce",
-    "company": "CYZA",
-    "location": "",
-    "salary_min": "NA",
-    "salary_max": "NA",
-    "tags": "golang | saas | go | engineer | backend | e-commerce",
-    "url": "https://remoteOK.com/remote-jobs/remote-backend-go-engineer-build-the-next-generation-of-global-saas-marketplace-commerce-cyza-1128966",
-    "posted": "2025-11-17"
-  },
-  {
-    "title": "Senior Technical Product Manager AvaCloud",
-    "company": "Ava Labs",
-    "location": "Brooklyn, NY",
-    "salary_min": "NA",
-    "salary_max": "NA",
-    "tags": "manager | design | web3 | technical | growth | senior | marketing | digital nomad",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-technical-product-manager-avacloud-ava-labs-1128965",
-    "posted": "2025-11-17"
-  },
-  {
-    "title": "Software Engineering Team Lead",
-    "company": "bloXroute Labs",
-    "location": "Remote",
-    "salary_min": "NA",
-    "salary_max": "NA",
-    "tags": "software | ethereum | support | testing | code | lead | go | engineering | backend",
-    "url": "https://remoteOK.com/remote-jobs/remote-software-engineering-team-lead-bloxroute-labs-1128964",
-    "posted": "2025-11-17"
-  },
-  {
-    "title": "Intern Software Development",
-    "company": "Netomi",
-    "location": "Remote - India",
-    "salary_min": "NA",
-    "salary_max": "NA",
-    "tags": "software | design | technical | code | web | java | management | backend | digital nomad",
-    "url": "https://remoteOK.com/remote-jobs/remote-intern-software-development-netomi-1128963",
-    "posted": "2025-11-16"
   }
 ]

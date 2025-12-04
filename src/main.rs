@@ -1,4 +1,5 @@
 use chrono::Utc;
+use chrono::TimeZone;
 use std::fs::File;
 use std::io::Write;
 use std::thread;
@@ -9,7 +10,7 @@ use serde_json::Value;
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut jobs = Vec::new();
-    println!("Scarping remote ok .......");
+    println!("Scraping remote ok .......");
     let mut result = scrape_remoteok().await?;
     jobs.extend(result);
     tokio::time::sleep(Duration::from_secs(2)).await;
@@ -54,14 +55,14 @@ async fn scrape_remoteok() -> Result<Vec<Job>, Box<dyn std::error::Error>>{
 
 
                     let my_job = Job{
-                           title: title.clone(),
-                           company: company.clone(),
-                           location: location.clone(),
-                           salary_min: salary_min.clone(),
-                           salary_max: salary_max.clone(),
-                           tags: tags.join(" | ").clone(),
-                           url: url.clone(),
-                           posted:posted.clone(),
+                           title: title,
+                           company: company,
+                           location: location,
+                           salary_min: salary_min,
+                           salary_max: salary_max,
+                           tags: tags.join(" | "),
+                           url: url,
+                           posted:posted,
                         };
                     result.push(my_job);
                 }
