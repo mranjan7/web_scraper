@@ -10,7 +10,7 @@ use std::time::Duration;
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut jobs = Vec::new();
-    println!("iremote ok .......");
+    println!("Sraping remote ok .......");
     let mut result = scrape_remoteok().await?;
     jobs.extend(result);
     tokio::time::sleep(Duration::from_secs(2)).await;
