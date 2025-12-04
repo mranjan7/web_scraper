@@ -17,23 +17,7 @@ A Rust-based command-line application that scrapes remote job listings from [Rem
   - `remote_jobs.json` (pretty-printed JSON)
   - `remote_jobs.csv` (CSV format)
 
-## Prerequisites
 
-- Rust (1.70+ recommended)
-- Cargo package manager
-
-## Dependencies
-
-This project uses the following Rust crates:
-
-- `tokio` – For asynchronous runtime.
-- `reqwest` – For making HTTP requests.
-- `serde` and `serde_json` – For JSON serialization/deserialization.
-- `chrono` – For date and time handling.
-- `csv` – For writing CSV files.
-- `remote_job_scraper` – Custom module for Job struct definition.
-
-Make sure to include these dependencies in your `Cargo.toml`.
 
 ## Installation
 
