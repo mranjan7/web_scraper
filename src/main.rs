@@ -10,7 +10,7 @@ use serde_json::Value;
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut jobs = Vec::new();
-    println!("Scraping remote ok .......");
+    println!("iremote ok .......");
     let mut result = scrape_remoteok().await?;
     jobs.extend(result);
     tokio::time::sleep(Duration::from_secs(2)).await;
@@ -41,12 +41,13 @@ async fn scrape_remoteok() -> Result<Vec<Job>, Box<dyn std::error::Error>>{
                     let location = job["location"].as_str().unwrap_or("NA").to_string();
                     let salary_min = job["salary_min"].as_str().unwrap_or("NA").to_string();
                     let salary_max = job["salary_max"].as_str().unwrap_or("NA").to_string();
-                    let tags:Vec<String> = job["tags"]
+                    let tags = job["tags"]
                     .as_array()
-                    .unwrap_or(&vec![])
-                    .iter()
+                    .map_or(Vec::new(), |arr| {
+                    arr.iter()
                     .filter_map(|v| v.as_str().map(String::from))
-                    .collect();
+                    .collect()
+                    });
                     let url = job["apply_url"].as_str().unwrap_or("NA").to_string();
                     let posted =  job["epoch"].as_i64()
                                     .and_then(|epoch| Utc.timestamp_opt(epoch,0).single())
