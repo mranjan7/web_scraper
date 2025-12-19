@@ -39,8 +39,8 @@ cargo run
 ```
 
 Upon successful execution following two file will be formed in root project directory:
-remote_jobs.json will contain the job listings in JSON format.
-remote_jobs.csv will contain the job listings in CSV format.
+- remote_jobs.json will contain the job listings in JSON format.
+- remote_jobs.csv will contain the job listings in CSV format.
 
 
 
