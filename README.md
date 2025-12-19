@@ -26,12 +26,17 @@ A Rust-based command-line application that scrapes remote job listings from [Rem
 ```bash
 git clone <repository-url>
 cd <repository-folder>
+```
 
 2. Build the ptoject
+```bash
 cargo build --release
+```
 
-3. Run the scraper
+4. Run the scraper
+```bash
 cargo run
+```
 
 Upon successful execution following two file will be formed in root project directory:
 remote_jobs.json will contain the job listings in JSON format.
